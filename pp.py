@@ -9,7 +9,7 @@ bot = Client("kkboty1",
              bot_token="7706982489:AAHg2tj-qKqUFDghIQSfKRVsV1UUMxfAe18")
 
 # قناة الاشتراك الإجباري
-CHANNEL_USERNAME = "t.me/telestoryup"
+CHANNEL_USERNAME = "telestoryup"
 
 async def is_subscribed(user_id):
     try:

@@ -13,9 +13,9 @@ async def bew(app: Client, message: types.Message):
         text="""**👋 اهلا بك عزيزي،— — — — — —
 يمكنك تحميل ستوريات تيليكرام، قم بإرسال رابط الستوري. سأقوم بتحميل لك ستوري مثبت او ارسل يوزر واحمل لك الستوريات الحديثة فقط .
 — — — — — —
-
-تم تطوير البوت بواسطة: @a_p_t 🫳 .   **""",
-reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="( المبرمج )", url='t.me/katas')]]))
+المطور : @its_aboody
+   **""",
+reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="( قناة البوت )", url='t.me/telestoryup')]]))
 async def storlink(app: Client, message: types.Message,use,idddd):
     try:
         async with client:
